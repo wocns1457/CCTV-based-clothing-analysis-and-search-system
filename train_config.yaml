@@ -1,0 +1,33 @@
+# data path
+peta_dir: './dataset/PETA dataset'
+ai_hub_dir: './dataset/AI_HUB_CCTV'
+deepfashion_dir: './dataset/deepfashion'
+
+prompt_config_path: './dataset/prompt_config.json'
+
+save_dir: './train_result'
+
+# train args
+SEED: 339
+
+use_data_size: 4000
+train_size: 0.8
+batch_size: 32
+num_workers: 4
+
+warmup_epoch: 0.2
+train_epoch: 20
+
+lr: 0.00001
+
+mixed_precision: True
+
+margin: 0.15
+text_similarity_threshold: 0.85
+label_smoothing: 0.1
+alpha: 0.6
+
+test_k: 16
+text_bs: 64
+
+save_plot: True
