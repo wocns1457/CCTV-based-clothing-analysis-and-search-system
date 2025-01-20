@@ -116,8 +116,4 @@ if __name__ == '__main__':
             cv2.imwrite(os.path.join(save_dir, frame_name), frame)
 
     with open(os.path.join(save_dir, "label_ye-ma.json"), "w") as f:
-<<<<<<< HEAD
         f.write(json.dumps(all_annotations, indent=4) + "\n")
-=======
-        f.write(json.dumps(all_annotations, indent=4) + "\n")
->>>>>>> 80fb7ecad16cc51bb6b1dd4dad186f31b8f8ed7d
