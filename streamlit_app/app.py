@@ -46,7 +46,7 @@ with st.sidebar:
     st.subheader('')
 
     use_sample = st.radio("**Use sample video?**", 
-                     ["**No**", "**Yes**"],
+                     [ "**Yes**", "**No**"],
                      captions=["", "비디오만 적용."]
                      ).replace('*', '')
 
