@@ -47,7 +47,7 @@ with st.sidebar:
 
     use_sample = st.radio("**Use sample video?**", 
                      [ "**Yes**", "**No**"],
-                     captions=["", "비디오만 적용."]
+                     captions=["비디오만 적용.", ""]
                      ).replace('*', '')
 
     if use_sample=='Yes':
